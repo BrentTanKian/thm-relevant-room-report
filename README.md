@@ -267,4 +267,5 @@ IIS Web Directory
 Server-Side Payload Execution
 ```
 
+
 > This assessment was performed in an authorized lab environment for educational purposes. Sensitive values have been redacted.
