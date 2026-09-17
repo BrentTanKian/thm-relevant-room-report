@@ -63,6 +63,7 @@ SeImpersonatePrivilege Identified
 PrintSpoofer Token Impersonation
         ↓
 NT AUTHORITY\SYSTEM
+```
 
 ---
 
@@ -139,6 +140,7 @@ The uploaded ASPX payload was then accessed through the IIS web endpoint:
 
 ```text
 http://TARGET_IP:49663/nt4wrksv/shell.aspx
+```
 
 ### Impact
 
@@ -148,6 +150,7 @@ Successful exploitation provided a shell running under the IIS application pool 
 
 ```text
 IIS APPPOOL\DefaultAppPool
+```
 
 ### Remediation
 
@@ -194,6 +197,7 @@ The privilege was successfully abused to obtain a shell running as:
 
 ```text
 NT AUTHORITY\SYSTEM
+```
 
 ### Impact
 
@@ -261,5 +265,6 @@ Writable SMB Share
 IIS Web Directory
         ↓
 Server-Side Payload Execution
+```
 
 > This assessment was performed in an authorized lab environment for educational purposes. Sensitive values have been redacted.
